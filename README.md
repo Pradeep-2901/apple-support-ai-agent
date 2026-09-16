@@ -12,40 +12,40 @@ The core principle is simple:
 
 ## 🚀 Features
 
-- 🧠 **Intent Classification**
+- **Intent Classification**
   - Classifies customer messages into 12 Apple Support intents.
 
-- 🔎 **Historical Case Retrieval**
+- **Historical Case Retrieval**
   - Finds similar customer-support interactions from historical Apple Support data.
 
-- 💬 **Grounded Reply Generation**
+- **Grounded Reply Generation**
   - Drafts replies using evidence from historically resolved cases.
 
-- 🛡️ **Safety-First Decision Making**
+- **Safety-First Decision Making**
   - Automatically handles only cases with sufficient evidence.
   - Escalates uncertain or low-confidence cases.
 
-- 📊 **Similarity Confidence**
+- **Similarity Confidence**
   - Uses similarity scores to measure how closely historical cases match the incoming message.
 
-- 🧪 **Golden-Set Evaluation**
+- **Golden-Set Evaluation**
   - Evaluated on 199 manually reviewed examples.
 
-- ⚖️ **Baseline Comparison**
+- **Baseline Comparison**
   - Compared against majority-class and keyword-based baselines.
 
-- 🤖 **LLM-as-Judge Harness**
+- **LLM-as-Judge Harness**
   - Includes structured evaluation for reply quality, grounding, and safety.
 
-- 🌐 **Streamlit Demo**
+- **Streamlit Demo**
   - Interactive interface for testing the support agent.
 
-- 💻 **CLI Evaluation**
+- **CLI Evaluation**
   - Run predictions and evaluation directly from the terminal.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```text
                 Customer Message
@@ -70,12 +70,12 @@ The core principle is simple:
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 The goal is to build an AI customer-support agent that can:
 
 1. Understand an incoming customer message.
-2. Classify the primary support intent.
+2. Classify the primary support intent of that message.
 3. Find similar historical customer-support interactions.
 4. Use historical responses as evidence.
 5. Draft a relevant support response.
@@ -86,7 +86,7 @@ The system prioritizes **evidence quality and safe escalation** rather than maxi
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The project uses the **Customer Support on Twitter** dataset.
 
@@ -94,7 +94,7 @@ The original dataset contains millions of tweets and replies from multiple custo
 
 For this project, the selected brand is:
 
-### 🍎 Apple Support
+### Apple Support
 
 After reconstructing customer → Apple Support interactions:
 
