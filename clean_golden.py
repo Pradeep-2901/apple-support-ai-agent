@@ -1,3 +1,5 @@
+"""Clean the audited golden evaluation set."""
+
 import pandas as pd
 
 INPUT_PATH = "data/golden_audited.csv"

@@ -1,3 +1,5 @@
+"""Check Apple Support records in the source dataset."""
+
 import pandas as pd
 
 FILE_PATH = "data/twcs.csv"

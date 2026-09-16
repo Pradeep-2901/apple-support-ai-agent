@@ -1,3 +1,5 @@
+"""Evaluate agent outputs with an LLM-based quality and safety judge."""
+
 import os
 import json
 import time

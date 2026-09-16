@@ -1,3 +1,5 @@
+"""Apply manual intent labels to sampled support messages."""
+
 import pandas as pd
 
 # ==========================================

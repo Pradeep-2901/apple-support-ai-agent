@@ -1,3 +1,5 @@
+"""Create targeted candidates for golden-set review."""
+
 import pandas as pd
 
 # ==========================================

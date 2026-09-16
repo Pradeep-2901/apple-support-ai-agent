@@ -1,3 +1,5 @@
+"""Find support-brand accounts in the source dataset."""
+
 import pandas as pd
 
 FILE_PATH = "data/twcs.csv"

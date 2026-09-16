@@ -1,3 +1,5 @@
+"""Create a review set from targeted golden-set candidates."""
+
 import pandas as pd
 
 INPUT_PATH = "data/targeted_candidates.csv"

@@ -1,3 +1,5 @@
+"""Provide the Streamlit interface for the Apple Support agent."""
+
 import streamlit as st
 import agent
 

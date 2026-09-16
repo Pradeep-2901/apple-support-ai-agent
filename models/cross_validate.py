@@ -1,3 +1,5 @@
+"""Cross-validate the intent classification pipeline."""
+
 import pandas as pd
 import re
 

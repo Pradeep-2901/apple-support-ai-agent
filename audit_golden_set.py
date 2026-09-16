@@ -1,3 +1,5 @@
+"""Audit generated predictions in the golden evaluation set."""
+
 import pandas as pd
 
 # ==========================================

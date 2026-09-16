@@ -1,3 +1,5 @@
+"""Train the historical support-reply retrieval model."""
+
 import pandas as pd
 import joblib
 import os

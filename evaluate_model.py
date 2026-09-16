@@ -1,3 +1,5 @@
+"""Evaluate the trained intent classifier on labeled examples."""
+
 import pandas as pd
 import joblib
 

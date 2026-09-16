@@ -1,3 +1,5 @@
+"""Train and save the Apple Support intent classifier."""
+
 import pandas as pd
 import os
 import joblib

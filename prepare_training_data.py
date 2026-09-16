@@ -1,3 +1,5 @@
+"""Prepare weakly labeled examples for model training."""
+
 import pandas as pd
 import re
 

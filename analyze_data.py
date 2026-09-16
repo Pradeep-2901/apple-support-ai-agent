@@ -1,3 +1,5 @@
+"""Inspect the source customer-support dataset."""
+
 import pandas as pd
 
 FILE_PATH = "data/twcs.csv"

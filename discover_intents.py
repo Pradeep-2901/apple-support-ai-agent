@@ -1,3 +1,5 @@
+"""Summarize likely support intents in Apple Support conversations."""
+
 import pandas as pd
 from collections import Counter
 

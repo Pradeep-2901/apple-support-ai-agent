@@ -1,3 +1,5 @@
+"""Run the Apple Support retrieval and safety decision agent."""
+
 import joblib
 import pandas as pd
 

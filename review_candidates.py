@@ -1,3 +1,5 @@
+"""Collect human review labels for golden-set candidates."""
+
 import pandas as pd
 
 INPUT_PATH = "data/golden_review_candidates.csv"

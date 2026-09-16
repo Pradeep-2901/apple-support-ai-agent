@@ -1,3 +1,5 @@
+"""Build Apple Support customer-to-reply conversations from raw data."""
+
 import pandas as pd
 
 FILE_PATH = "data/twcs.csv"
