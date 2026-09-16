@@ -67,6 +67,7 @@ The core principle is simple:
                  ┌─────┴─────┐
                  ▼           ▼
             AUTO-HANDLE   ESCALATE
+```
 
 ---
 
@@ -489,7 +490,7 @@ apple-support-ai-agent/
 Install dependencies:
 
 ```bash
-pip install pandas numpy scikit-learn joblib streamlit requests
+pip install pandas numpy scikit-learn==1.9.0 joblib streamlit requests
 ```
 
 ---
@@ -664,6 +665,3 @@ Built for the **Hiver SDE Intern Take-Home Assignment**.
 ### ⭐ Project Focus
 
 **Intent Classification • Information Retrieval • Grounded AI • Customer Support Automation • Safety-First AI Agents**
-
-```
-```
